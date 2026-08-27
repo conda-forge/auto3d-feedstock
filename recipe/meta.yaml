@@ -1,13 +1,13 @@
 {% set name = "Auto3D" %}
-{% set version = "2.3.0" %}
+{% set version = "3.1.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/auto3d-{{ version }}.tar.gz
-  sha256: 0b6aa25d19d389adc3da6283be7db95e998c19deaed0d03800cd36f4cd9a3b87
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/auto3d-{{ version }}.tar.gz
+  sha256: b6627db22ec55b60936daf5bf9cbf2abf83595e240bb9cef655d002d99a48be8
 
 build:
   noarch: python
