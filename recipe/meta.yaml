@@ -1,6 +1,5 @@
 {% set name = "auto3d" %}
 {% set version = "3.2.4" %}
-{% set python_min = "3.11" %}
 
 package:
   name: {{ name|lower }}
